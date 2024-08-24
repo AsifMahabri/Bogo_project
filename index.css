@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 400px;
+    text-align: center;
+}
+
+h2 {
+    color: #ff0066;
+    margin-bottom: 20px;
+}
+
+.box {
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+    padding: 15px;
+    background-color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.box-header {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.box-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.offer {
+    background-color: #ff0066;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.price {
+    font-size: 1.2em;
+    color: #333;
+}
+
+.box-options {
+    display: none;
+    margin-top: 10px;
+}
+
+.most-popular {
+    background-color: #ff6600;
+    color: #fff;
+    padding: 2px 5px;
+    font-size: 0.8em;
+    border-radius: 3px;
+}
+
+select {
+    margin-top: 5px;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}

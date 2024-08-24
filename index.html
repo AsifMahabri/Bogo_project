@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive BOGO Offers</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <h2>YAY! It's BOGO</h2>
+
+        <!-- First Box -->
+        <div class="box" id="box1" onclick="toggleBox('box1')">
+            <div class="box-header">Buy 1 Get 2</div>
+            <div class="box-content">
+                <div class="offer">30% Off</div>
+                <div class="price">$18.00 USD</div>
+            </div>
+            <div class="box-options">
+                <label for="size1">Size:</label>
+                <select id="size1">
+                    <option value="S">S</option>
+                    <option value="M">M</option>
+                    <option value="L">L</option>
+                </select>
+                <label for="color1">Color:</label>
+                <select id="color1">
+                    <option value="Black">Black</option>
+                    <option value="White">White</option>
+                    <option value="Red">Red</option>
+                </select>
+            </div>
+        </div>
+
+        <!-- Second Box -->
+        <div class="box" id="box2" onclick="toggleBox('box2')">
+            <div class="box-header">Buy 2 Get 4 <span class="most-popular">Most Popular</span></div>
+            <div class="box-content">
+                <div class="offer">30% Off</div>
+                <div class="price">$24.00 USD</div>
+            </div>
+            <div class="box-options">
+                <label for="size2">Size:</label>
+                <select id="size2">
+                    <option value="S">S</option>
+                    <option value="M">M</option>
+                    <option value="L">L</option>
+                </select>
+                <label for="color2">Color:</label>
+                <select id="color2">
+                    <option value="Black">Black</option>
+                    <option value="White">White</option>
+                    <option value="Red">Red</option>
+                </select>
+            </div>
+        </div>
+
+        <!-- Third Box -->
+        <div class="box" id="box3" onclick="toggleBox('box3')">
+            <div class="box-header">Buy 3 Get 6</div>
+            <div class="box-content">
+                <div class="offer">10% Off</div>
+                <div class="price"><del>$40.00</del> $36.00 USD</div>
+            </div>
+            <div class="box-options">
+                <label for="size3">Size:</label>
+                <select id="size3">
+                    <option value="S">S</option>
+                    <option value="M">M</option>
+                    <option value="L">L</option>
+                </select>
+                <label for="color3">Color:</label>
+                <select id="color3">
+                    <option value="Black">Black</option>
+                    <option value="White">White</option>
+                    <option value="Red">Red</option>
+                </select>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
